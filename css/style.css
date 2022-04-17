@@ -1,0 +1,82 @@
+body {
+	font-family: 'Merriweather', serif;
+}
+
+.header {
+	min-height: 100vh;
+}
+
+.header__head {
+	background-color: #e60012;
+}
+
+.header__head > img {
+	width: 120px;
+}
+
+.heading-primary {
+	letter-spacing: 1.5px;
+	font-weight: 700;
+	font-family: 'Akshar', sans-serif;
+}
+
+.heading-secondary {
+	font-family: 'Akshar', sans-serif;
+	letter-spacing: 1.5px;
+}
+
+.heading-secondary > span {
+	color: #fff;
+}
+
+.img{
+	width: 170px;
+}
+
+.btn-primary {
+	background-color: #fff;
+	color: #e60012;
+	border: solid 3px #e60012;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-family: 'Akshar', sans-serif;
+	font-weight: 700;
+}
+.btn-primary:hover {
+	background-color: #e60012;
+	color: #fff;
+	border-color: #e60012;
+}
+
+.section-why {
+	background-color: #e60012;
+	color: #fff;
+	min-width: 50vh;
+}
+
+.card-title {
+	font-family: 'Akshar', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+
+.card > img {
+	background-color: #fff;	
+	width: 100px;
+	height:  100px;
+	border-radius:  50%;
+	padding: 2px;
+}
+
+.about__img {
+	width: 500px;
+}
+
+.section-how {
+	background-color: #e60012;
+	color: #fff;
+}
+
+.section-how__vid {
+	width:  500px;
+}

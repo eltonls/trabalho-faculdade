@@ -31,7 +31,7 @@ const customerTestament = {
 
 
 const removeActiveState = (elementArray) => {
-    elementArray.forEach((element, idx) => {
+    elementArray.forEach((element) => {
         element.classList.remove("active");
     })
 }
